@@ -1,15 +1,15 @@
 <img width="578" alt="image" src="https://github.com/user-attachments/assets/df26aa32-9122-42a3-8157-7dc16d514274" />
 
 
-# 🚀 Azure Data Pipeline Project
+# Azure Data Pipeline Project
 
-## 🧩 Project Overview
+## Project Overview
 
 This project showcases an end-to-end Azure data pipeline that ingests data from **Kaggle (HTTP)**, stores it in **Azure Data Lake Gen2**, processes it with **Databricks (Apache Spark)**, and delivers insights via **Synapse Serverless SQL** and **Power BI**.
 
 ---
 
-## 🔄 Data Flow
+## Data Flow
 
 ### 1. **Source**
 - External data from **Kaggle (HTTP endpoint)**
@@ -41,7 +41,7 @@ This project showcases an end-to-end Azure data pipeline that ingests data from 
   - Connects to Synapse to build interactive dashboards
 
 ---
-## 🔐 Access Control
+## Access Control
 
 - **Storage Access**: Managed via IAM roles
 - **Databricks Access**: Controlled via workspace permissions
@@ -49,7 +49,7 @@ This project showcases an end-to-end Azure data pipeline that ingests data from 
 
 ---
 
-## ✅ How to Run
+## How to Run
 
 1. Upload dataset manually or via ADF to Data Lake Gen2
 2. Trigger ADF pipeline to ingest raw data
